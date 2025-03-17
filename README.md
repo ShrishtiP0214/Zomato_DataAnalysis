@@ -4,7 +4,7 @@ Project Overview
 
 This project aims to analyze Zomato restaurant data to gain insights into customer preferences, restaurant performance, and pricing patterns. It involves data preprocessing, exploratory data analysis (EDA), and building machine learning models for prediction and clustering.
 
-Technologies Used
+-> Technologies Used:
 
 Python
 
@@ -18,11 +18,13 @@ Seaborn
 
 Scikit-Learn (Linear Regression, K-Means Clustering)
 
-Dataset
+
+-> Dataset
 
 The dataset used is "Zomato data.csv," which includes information on restaurant ratings, votes, cost for two people, and online ordering options.
 
-Project Goals
+
+->Project Goals
 
 Identify the types of restaurants most favored by the public.
 
@@ -34,7 +36,8 @@ Predict restaurant ratings using Linear Regression.
 
 Perform K-Means Clustering to segment restaurants based on cost and votes.
 
-Data Preprocessing
+
+-> Data Preprocessing
 
 Handling missing values by removing rows with null data.
 
@@ -44,7 +47,8 @@ Converting 'approx_cost(for two people)' to numeric after removing commas.
 
 Removing outliers using the Interquartile Range (IQR) method.
 
-Exploratory Data Analysis (EDA)
+
+-> Exploratory Data Analysis (EDA)
 
 Distribution analysis of restaurant cost.
 
@@ -52,37 +56,39 @@ Correlation heatmap to visualize relationships between numerical features.
 
 Count plots and pivot tables to analyze customer preferences.
 
-Machine Learning Models
 
-Linear Regression
+-> Machine Learning Models
 
-Predicting restaurant ratings based on votes and cost.
+    -> Linear Regression
 
-Performance Metrics:
+       Predicting restaurant ratings based on votes and cost.
 
-Mean Squared Error
+       Performance Metrics:
 
-R-squared Score
+            Mean Squared Error
 
-K-Means Clustering
+            R-squared Score
 
-Clustering restaurants into 3 groups based on cost and votes.
+    -> K-Means Clustering
 
-Visualizing the clusters with scatter plots.
+      Clustering restaurants into 3 groups based on cost and votes.
 
-Visualizations
+      Visualizing the clusters with scatter plots.
 
-Correlation Heatmap
+    -> Visualizations
 
-Distribution Plot for Cost
+        Correlation Heatmap
+        
+        Distribution Plot for Cost
+        
+        Count Plots for Online Order and Restaurant Type
+        
+        Box Plot for Online Orders vs. Ratings
+        
+        Heatmap for Online Order Preferences by Restaurant Type
 
-Count Plots for Online Order and Restaurant Type
 
-Box Plot for Online Orders vs. Ratings
-
-Heatmap for Online Order Preferences by Restaurant Type
-
-Results and Insights
+-> Results and Insights
 
 Identified the most popular restaurant types.
 
