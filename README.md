@@ -59,33 +59,35 @@ Count plots and pivot tables to analyze customer preferences.
 
 -> Machine Learning Models
 
-    -> Linear Regression
+-> Linear Regression
 
-       Predicting restaurant ratings based on votes and cost.
+Predicting restaurant ratings based on votes and cost.
 
-       Performance Metrics:
+Performance Metrics:
 
-            Mean Squared Error
+Mean Squared Error
 
-            R-squared Score
+R-squared Score
 
-    -> K-Means Clustering
 
-      Clustering restaurants into 3 groups based on cost and votes.
+-> K-Means Clustering
 
-      Visualizing the clusters with scatter plots.
+ Clustering restaurants into 3 groups based on cost and votes.
 
-    -> Visualizations
+ Visualizing the clusters with scatter plots.
 
-        Correlation Heatmap
+
+-> Visualizations
+
+Correlation Heatmap
         
-        Distribution Plot for Cost
+Distribution Plot for Cost
         
-        Count Plots for Online Order and Restaurant Type
+Count Plots for Online Order and Restaurant Type
         
-        Box Plot for Online Orders vs. Ratings
+ Box Plot for Online Orders vs. Ratings
         
-        Heatmap for Online Order Preferences by Restaurant Type
+ Heatmap for Online Order Preferences by Restaurant Type
 
 
 -> Results and Insights
